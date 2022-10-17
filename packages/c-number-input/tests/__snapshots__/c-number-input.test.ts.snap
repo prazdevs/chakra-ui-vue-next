@@ -3,7 +3,8 @@
 exports[`should render properly 1`] = `
 <DocumentFragment>
   <div
-    class="css-0"
+    data-part="root"
+    id="number-input:undefined"
   />
 </DocumentFragment>
 `;
