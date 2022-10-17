@@ -4470,6 +4470,22 @@
     "@zag-js/store" "0.1.2"
     klona "2.0.5"
 
+"@zag-js/core@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@zag-js/core/-/core-0.1.12.tgz#f0cd7687b26c55845c9bd55822f0b76b1c3ceee7"
+  integrity sha512-92QVG6O0Txr28PCAIk1FhWrB4BoYc4MJOWxpazqB7PoLz93+sNytCI0cMOEJnLdu0Qy/WvATYiqifuH92Qa1AA==
+  dependencies:
+    "@zag-js/store" "0.1.4"
+    klona "2.0.5"
+
+"@zag-js/number-input@0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@zag-js/number-input/-/number-input-0.1.19.tgz#e1c0862c190a944b87ae059ff27f9c703123d3a8"
+  integrity sha512-B4WwHA3Golii4c2u+LUx4ttLbXCubGVGSzxlyTiY6ZON+DE27PGEnN5ciouPPNx3OBZFC6t/u6wB+WBBC8RT+Q==
+  dependencies:
+    "@zag-js/core" "0.1.12"
+    "@zag-js/types" "0.2.7"
+
 "@zag-js/store@0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@zag-js/store/-/store-0.1.2.tgz#7c9241d10347d55cb8eeadd723bd0658445471e3"
@@ -4477,10 +4493,24 @@
   dependencies:
     proxy-compare "2.3.0"
 
+"@zag-js/store@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@zag-js/store/-/store-0.1.4.tgz#473dc450e8e630f22f3f1d8d573d4845c7fadef8"
+  integrity sha512-Mq3IwpPvoOzbNqWGcH/t0u7M3IpXTHmU+YeyYmZy8aD+kUrMx8s4IY8fZvnrIgOZrL7Rb45GRrRNpEJfGmTGFg==
+  dependencies:
+    proxy-compare "2.3.0"
+
 "@zag-js/types@0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@zag-js/types/-/types-0.2.5.tgz#ca78495ee8bf1b8e6c042d3eee0fb4abd8ccfc1c"
   integrity sha512-T2Vrwm7maw8JtB2OyeDUagc/R87pL79t0aiYSEQBb3UKjnuXDOlcM06ubecPMINxiMIGueKNUbTdsXZ4rWf16Q==
+  dependencies:
+    csstype "3.1.0"
+
+"@zag-js/types@0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@zag-js/types/-/types-0.2.7.tgz#8ae259aab593628797cab18a1d4b216952fd1821"
+  integrity sha512-UZn+n6XjPMC9NjZZcXKTDeBJ8ere1xWmKn/JjodIRe5L8xCPw8d288JF3EmXBeZQokmQyQDL5hBXYxpA4tKfRQ==
   dependencies:
     csstype "3.1.0"
 
@@ -4492,6 +4522,15 @@
     "@zag-js/core" "0.1.10"
     "@zag-js/store" "0.1.2"
     "@zag-js/types" "0.2.5"
+
+"@zag-js/vue@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@zag-js/vue/-/vue-0.1.16.tgz#1a1abe87d7172cbde3994d6bfe13730fb1ee31ca"
+  integrity sha512-R+GjGFUeG1Vjv5fAlPVzw3/k3TjL47O6XKfwmIdj/QwsZ3nFX6ytppa2rLq6SvXo1ZErxr0R7R+eMVyU7XVmBw==
+  dependencies:
+    "@zag-js/core" "0.1.12"
+    "@zag-js/store" "0.1.4"
+    "@zag-js/types" "0.2.7"
 
 "@zkochan/cmd-shim@^3.1.0":
   version "3.1.0"

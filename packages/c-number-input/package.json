@@ -1,0 +1,47 @@
+{
+  "name": "@chakra-ui/c-number-input",
+  "description": "Chakra UI Vue | X component",
+  "version": "0.0.0-alpha.0",
+  "main": "dist/chakra-ui-c-number-input.cjs.js",
+  "module": "dist/chakra-ui-c-number-input.esm.js",
+  "author": "Jonathan Bakebwa <codebender828@gmail.com>",
+  "homepage": "https://github.com/chakra-ui/chakra-ui-vue-next#readme",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/chakra-ui-c-number-input.cjs.js",
+      "default": "./dist/chakra-ui-c-number-input.esm.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chakra-ui/chakra-ui-vue-next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chakra-ui/chakra-ui-vue-next/issues"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@chakra-ui/c-icon": "^1.0.0-alpha.10",
+    "@chakra-ui/c-input": "^0.0.0-alpha.5",
+    "@chakra-ui/vue-system": "0.1.0-alpha.10",
+    "@chakra-ui/vue-utils": "0.1.0-alpha.10",
+    "@zag-js/vue": "^0.1.16",
+    "@zag-js/number-input": "0.1.19"
+  },
+  "devDependencies": {
+    "vue": "^3.2.37"
+  },
+  "peerDependencies": {
+    "vue": "^3.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
